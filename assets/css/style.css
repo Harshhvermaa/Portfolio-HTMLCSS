@@ -164,7 +164,7 @@ img{
 /* HOME CSS */
 
 #home{
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
 }
