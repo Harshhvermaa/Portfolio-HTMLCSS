@@ -3,7 +3,7 @@
 
 /* Variables */
 :root {
-    --c-brand: #f83691;
+    --c-brand: #ff7E21;
     --c-brand-rgb: 248, 54, 145;
     --c-dark: #303050;
     --c-body: #636383;
@@ -77,9 +77,10 @@ img{
 
 /* NAVIGATION BAR CSS */
 .navbar{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     transition: var(--transition);
+    background-color: white;
 }
 
 .navbar.scrolled{
@@ -136,6 +137,10 @@ img{
     margin-right: 6px;
 }
 
+#home .container{
+    /* background-color: aqua; */
+
+}
 .social-icon:hover{
     background-color: transparent;
 }
@@ -208,6 +213,10 @@ img{
 
 #services .container .row h5{
     height: 55px;
+}
+
+#services .container .row p{
+    height: 120px;
 }
 
 /* Project */
