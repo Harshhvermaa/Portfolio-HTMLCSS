@@ -40,7 +40,9 @@ body{
 .section-connector {
     position: relative;
 }
-
+#navbarNav{
+    justify-content: end;
+}
 .section-connector::after {
     content: '';
     width: 2px;
@@ -50,12 +52,38 @@ body{
     top: -50px;
     left: 50%;
 }
-
+#navbar{
+    background: transparent;
+}
 h1, .h1, h2, .h2,h3, .h3,h4, .h4, h5, .h5,h6, .h6{
     font-weight: 700;
     color: var(--c-dark);
 }
-
+.designation_box h1{
+    font-size: 3rem;
+}
+.designation_box h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.designation_box h1 span{
+    font-size: 4rem;
+}
+.designation_box a{
+    /* background-color: #303050; */
+    /* color: white; */
+    border-radius: 60%;
+}
+.designation_box{
+    width: 37%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(35%, 75%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px #FF7E21;
+}
 a{
     text-decoration: none;
     color: var(--c-dark);
