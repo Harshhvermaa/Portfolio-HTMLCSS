@@ -69,11 +69,10 @@ h1, .h1, h2, .h2,h3, .h3,h4, .h4, h5, .h5,h6, .h6{
 .designation_box h1 span{
     font-size: 4rem;
 }
-.designation_box a{
-    /* background-color: #303050; */
-    /* color: white; */
-    border-radius: 60%;
-}
+/* .designation_box a{
+    background-color: #303050;
+    color: white;
+} */
 .designation_box{
     width: 37%;
     position: absolute;
@@ -163,6 +162,7 @@ img{
     align-items: center;
     justify-content: center;
     margin-right: 6px;
+    border-radius: 50%;
 }
 
 #home .container{
